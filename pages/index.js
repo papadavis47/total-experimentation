@@ -19,6 +19,20 @@ export default function Home() {
         width={640}
         height={427}
       />
+      <div
+        css={`
+          color: green;
+          font-size: 48px;
+        `}
+      >
+        <h1
+          css={`
+            text-align: center;
+          `}
+        >
+          hello world
+        </h1>
+      </div>
     </div>
   );
 }
